@@ -1,0 +1,27 @@
+<div class="nes-container with-title is-centered is-rounded">
+  <h2>Outfits</h2>
+  <p>
+    Here you can find references for the various outfits Naomi wears. Note that
+    she NEVER wears shoes or socks.
+  </p>
+</div>
+<div class="nes-container with-title is-centered is-rounded">
+  <div class="nes-container is-rounded is-centered is-dark outfits">
+    <div class="outfit" *ngFor="let outfit of outfits">
+      <a
+        href="https://naomi.lgbt/assets/img/outfits/{{ outfit.fileName }}"
+        target="_blank"
+      >
+        <img
+          src="https://naomi.lgbt/assets/img/outfits/{{ outfit.fileName }}"
+          alt="{{ outfit.alt }}"
+          class="outfit-img"
+        />
+      </a>
+      <div class="outfit-description">
+        <h2>{{ outfit.name }}</h2>
+        <p>{{ outfit.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

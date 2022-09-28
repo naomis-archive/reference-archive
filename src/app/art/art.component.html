@@ -1,0 +1,23 @@
+<div class="nes-container with-title is-centered is-rounded">
+  <h2>Art</h2>
+  <p>Here you can find past art of Naomi, in case you want some inspiration.</p>
+</div>
+<div class="nes-container is-rounded is-centered art-grid">
+  <div *ngFor="let art of arts" class="art">
+    <a
+      href="https://naomi.lgbt/assets/img/art/{{ art.fileName }}"
+      target="_blank"
+    >
+      <img
+        src="https://naomi.lgbt/assets/img/art/{{ art.fileName }}"
+        alt="{{ art.alt }}"
+      />
+    </a>
+    <p class="art-title">
+      By
+      <a href="{{ art.url }}" target="_blank" rel="noopener noreferrer">{{
+        art.artist
+      }}</a>
+    </p>
+  </div>
+</div>
