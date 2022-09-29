@@ -280,6 +280,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing black body-tape, with her hair in a ponytail.',
   },
   {
+    name: 'Trans Pride Dress',
+    fileName: 'trans.png',
+    description: 'Trans rights are human rights 🏳️‍⚧️',
+    alt: 'Naomi wearing a crop-top and skirt with the trans flag colours.',
+  },
+  {
     name: 'Usagi Costume',
     fileName: 'usagi.png',
     description: "Hey look, it's Sailor Moon!",
