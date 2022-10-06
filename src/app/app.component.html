@@ -9,7 +9,24 @@
       If you want to draw Naomi fan art, let us know in our
       <a href="https://chat.nhcarrigan.com" target="_blank">Discord</a>!
     </p>
+    <p>
+      Use the buttons below to view Naomi's ref sheet, wardrobe, or past art -
+      note that the ref sheet depicts her in undergarments, to avoid obscuring
+      key features.
+    </p>
   </div>
-  <app-art></app-art>
-  <app-outfits></app-outfits>
+  <div>
+    <button *ngIf="view !== 'ref'" class="nes-btn" (click)="setView('ref')">
+      Reference
+    </button>
+    <button *ngIf="view !== 'ward'" class="nes-btn" (click)="setView('ward')">
+      Wardrobe
+    </button>
+    <button *ngIf="view !== 'art'" class="nes-btn" (click)="setView('art')">
+      Past Art
+    </button>
+  </div>
+  <app-ref *ngIf="view === 'ref'"></app-ref>
+  <app-art *ngIf="view === 'art'"></app-art>
+  <app-outfits *ngIf="view === 'ward'"></app-outfits>
 </div>
