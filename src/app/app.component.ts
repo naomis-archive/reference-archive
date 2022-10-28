@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reference';
-  view = 'ref';
+  view = '';
   setView(view: string) {
     this.view = view;
   }
