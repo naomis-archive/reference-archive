@@ -11,7 +11,9 @@
       <img
         src="https://naomi.lgbt/assets/img/art/{{ art.fileName }}"
         alt="{{ art.alt }}"
+        class="{{ art.spicy ? 'spicy' : ''}}"
       />
+      <p *ngIf="art.spicy" class="overlay">Might be Spicy...</p>
     </a>
     <p class="art-title">
       By

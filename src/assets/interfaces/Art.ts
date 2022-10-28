@@ -3,4 +3,5 @@ export interface Art {
   artist: string;
   url: string;
   alt: string;
+  spicy: boolean;
 }
