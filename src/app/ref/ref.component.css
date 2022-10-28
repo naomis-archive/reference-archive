@@ -1,9 +1,23 @@
-.img-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+.content-grid img {
+  height: 350px;
 }
 
-.img-grid img {
-    height: 350px;
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  margin: 10px 0;
+}
+
+.content-grid div {
+  height: 100%;
+}
+
+.img-hell {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.img-hell img {
+  height: auto;
+  width: 100%;
 }
