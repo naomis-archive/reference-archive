@@ -170,6 +170,13 @@ export const arts: Art[] = [
     spicy: false,
   },
   {
+    fileName: 'Crimmy.png',
+    artist: 'Crimmy',
+    url: 'https://twitter.com/crimsoncraven',
+    alt: 'Pixel art of Naomi',
+    spicy: false,
+  },
+  {
     fileName: 'tokkipon7.png',
     artist: 'Tokkipon',
     url: 'https://twitter.com/tokkiponn',
@@ -217,5 +224,12 @@ export const arts: Art[] = [
     url: 'https://twitter.com/tokkiponn',
     alt: 'Naomi in a tickle machine.',
     spicy: true,
+  },
+  {
+    fileName: 'tokkippon10.png',
+    artist: 'Tokkipon',
+    url: 'https://twitter.com/tokkiponn',
+    alt: 'Cat girl Naomi, hard at work on her laptop.',
+    spicy: false,
   },
 ];
