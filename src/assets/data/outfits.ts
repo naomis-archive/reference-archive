@@ -2,6 +2,12 @@ import { Outfit } from 'src/assets/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Aikido Gi',
+    fileName: 'aikido.png',
+    description: 'Naomi is ready to learn the sword.',
+    alt: 'Naomi wearing a white kimono top with a blue hakama.',
+  },
+  {
     name: 'Anime Dress',
     fileName: 'anime.png',
     description: 'Look Respectfully!',
@@ -52,6 +58,12 @@ export const Outfits: Outfit[] = [
     description:
       'Perfect for when you want to play in the sand, but not the water.',
     alt: 'Naomi wearing a mini blue blouse and blue denim shorts.',
+  },
+  {
+    name: 'Black Dress',
+    fileName: 'black.png',
+    description: "Does this count as a 'Little Black Dress'?",
+    alt: 'Naomi wearing a black skirt and a black stola-style top.',
   },
   {
     name: 'Blood Witch',
@@ -116,7 +128,6 @@ export const Outfits: Outfit[] = [
     description: 'Naomi won this in an arena.',
     alt: 'Naomi wearing a golden suit of armour.',
   },
-
   {
     name: 'Cheer',
     fileName: 'cheer.png',
@@ -147,6 +158,24 @@ export const Outfits: Outfit[] = [
     description:
       'Specifically for fancy dinner parties, Naomi typically opts for her more generic formal wear.',
     alt: 'Naomi wearing a black and blue strapless dress, skin-tight and ending halfway down her thighs. Her hair is in her typical ponytail.',
+  },
+  {
+    name: 'Lacy Croptop',
+    fileName: 'croptop.png',
+    description: 'Naomi feels like a punk rebel wearing this.',
+    alt: 'Naomi wearing a black crop top with lace and a long trench-style back.',
+  },
+  {
+    name: 'Crusader Armour',
+    fileName: 'crusader.png',
+    description: 'Naomi is ready for battle!',
+    alt: 'Naomi wearing chainmail armour with plate overlays, a red skirt, and a red cloak.',
+  },
+  {
+    name: 'Cybermaid',
+    fileName: 'cybermaid.png',
+    description: "It's like a regular maid, but glowy!",
+    alt: 'Naomi wearing a black french-maid outfit with glowing purple accents.',
   },
   {
     name: 'Cybersuit',
@@ -193,10 +222,22 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a light purple dress with a spiky-shaped hem.',
   },
   {
+    name: 'Fireworks Outfit',
+    fileName: 'fireworks.png',
+    description: 'For those especially festive celebrations.',
+    alt: 'Naomi wearing a blue crop top, black slanted skirt, and blue sash, all with firework patterns.',
+  },
+  {
     name: 'Fishnet Dress',
     fileName: 'fishnet.png',
     description: 'Fish for some Naomis?',
     alt: 'Naomi wearing a teal dress with a fishnet outer layer.',
+  },
+  {
+    name: 'Flame Witch',
+    fileName: 'flame.png',
+    description: 'Sometimes Naomi likes to play with fire.',
+    alt: 'Naomi wearing a black bra and skirt, with black flame accents on her arms and legs',
   },
   {
     name: 'Flower Dress',
@@ -219,7 +260,7 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a modified sailor fuku with frilly edges, and a bit more revealing.',
   },
   {
-    name: 'Star Dress',
+    name: 'Purple Star Dress',
     fileName: 'galaxy-2.png',
     description: 'Does she have you seeing stars?',
     alt: 'Naomi wearing a purple dress with stars, and black lace sleeves.',
@@ -242,6 +283,12 @@ export const Outfits: Outfit[] = [
     fileName: 'goddess.png',
     description: 'Holy robes fit for a deity.',
     alt: 'Naomi wearing a gold stole and brasserie with black gloves, tights, and skirt.',
+  },
+  {
+    name: 'Skimpy Goth',
+    fileName: 'gothic-5.png',
+    description: 'Maybe a bit more revealing than intended...',
+    alt: 'Naomi wearing a black corset and miniskirt.',
   },
   {
     name: 'Even More Lace',
@@ -346,10 +393,22 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
   },
   {
+    name: 'Winter Loungewear',
+    fileName: 'lounge-2.png',
+    description: 'For those cozy winter nights in front of the fire.',
+    alt: 'Naomi wearing grey bellbottom sweatpants, a flower tube top, and an off the shoulder fleece sweater.',
+  },
+  {
     name: 'Loungewear',
     fileName: 'lounge.png',
     description: 'Sometimes Naomi just does not want to go out.',
     alt: 'Naomi wearing a purple cross top, purple stretch pants, and a mesh cardigan.',
+  },
+  {
+    name: 'Lovey Skirt',
+    fileName: 'lovey.png',
+    description: 'For when Naomi is feeling extra lovey-dovey',
+    alt: 'Naomi wearing a pink tanktop with butterflies, and a yellow skirt with a pink heart.',
   },
   {
     name: 'Magical Girl',
@@ -375,6 +434,12 @@ export const Outfits: Outfit[] = [
     description:
       'One might argue that Naomi wears this for cleaning, but really maid outfits are just loads of fun.',
     alt: 'Naomi in a stereotypical maid outfit with a galaxy print. Her long hair is let down.',
+  },
+  {
+    name: 'Maroon Dress',
+    fileName: 'maroon.png',
+    description: 'Naomi fell in love with the accenting.',
+    alt: 'Naomi wearing a maroon dress with gold accents.',
   },
   {
     name: 'Meeting Outfit',
@@ -467,10 +532,22 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple and black hoodie with white shorts.',
   },
   {
+    name: 'Party Outfit',
+    fileName: 'party.png',
+    description: 'Time to hit the dance floor!',
+    alt: 'Naomi wearing a black corset with purple lace sleeves and black skinny pants.',
+  },
+  {
     name: 'Peacock Dress',
     fileName: 'peacock.png',
     description: "Aren't her feathers pretty?",
     alt: 'Naomi wearing a black dress with peacock feathers on the hem.',
+  },
+  {
+    name: 'Pink Frilly Dress',
+    fileName: 'pink-2.png',
+    description: "For when she's feeling extra flowery.",
+    alt: 'Naomi wearing a frilly pink dress with gold accents.',
   },
   {
     name: 'Pink Dress',
@@ -483,6 +560,13 @@ export const Outfits: Outfit[] = [
     fileName: 'pirate.png',
     description: "She's comin' for yer booty.",
     alt: 'Naomi wearing a white short-sleeve bodice, a black skirt, and black lace gloves.',
+  },
+  {
+    name: 'Preppy Outfit',
+    fileName: 'preppy.png',
+    description:
+      'Naomi was never that kind of girl, but she looks cute in the outfit!',
+    alt: 'Naomi wearing a white cropped tank top with a boob window, and a purple pleated miniskirt.',
   },
   {
     name: 'Code Princess',
@@ -646,6 +730,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a short black dress with blue accents and gold filigree.',
   },
   {
+    name: 'Space Dress',
+    fileName: 'space.png',
+    description: 'Naomi likes the stars.',
+    alt: 'Naomi wearing a black dress with a star pattern.',
+  },
+  {
     name: 'Spider Skirt',
     fileName: 'spider.png',
     description: 'Spooder?',
@@ -662,6 +752,13 @@ export const Outfits: Outfit[] = [
     fileName: 'spoopy.png',
     description: "Naomi's Halloween attire.",
     alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.',
+  },
+  {
+    name: 'Star Dress',
+    fileName: 'star.png',
+    description:
+      "You'll get stars in your eyes when you see Naomi wearing this.",
+    alt: 'Naomi wearing a blue dress with stars.',
   },
   {
     name: 'Steampunk Dress',
@@ -689,6 +786,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a revealing lacy dress with a bat-wing skirt and heart themed stockings.',
   },
   {
+    name: 'Summer Wear',
+    fileName: 'summer-2.png',
+    description: 'Perfect for those hot summer days.',
+    alt: 'Naomi wearing a white crop top and denim booty shorts.',
+  },
+  {
     name: 'Summer Skirt',
     fileName: 'summer.png',
     description: 'A nice and light outfit for when the weather heats up.',
@@ -706,6 +809,12 @@ export const Outfits: Outfit[] = [
     description:
       'While not technically a sundress, Naomi wears it as if it were.',
     alt: 'Naomi wearing a short dress with a lacy top, her hair in a ponytail.',
+  },
+  {
+    name: 'Sweater Dress',
+    fileName: 'sweater.png',
+    description: 'A nice and warm outfit for the winter.',
+    alt: 'Naomi wearing a red sweater dress with pink glitter leggings.',
   },
   {
     name: 'Swimwear',
@@ -777,13 +886,25 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a white ruffled dress with a blue petticoat.',
   },
   {
+    name: 'Warrior Armour',
+    fileName: 'warrior.png',
+    description: 'Hopefully those sword lessons paid off.',
+    alt: 'Naomi wearing a bit of plate armour with a partial chain bodysuit.',
+  },
+  {
+    name: 'Wedding Dress',
+    fileName: 'wedding.png',
+    description: 'Maybe some day?',
+    alt: 'Naomi wearing a white lace wedding dress.',
+  },
+  {
     name: 'Witch Costume',
     fileName: 'witch-2.png',
     description: "She's ready to cast a spell on you~!",
     alt: "Naomi wearing a black witch's outfit with a hat.",
   },
   {
-    name: 'Witch Costume',
+    name: 'Witch Dress',
     fileName: 'witch.png',
     description:
       'On occasion, Naomi likes to dress up. Her typical go-to costume is a witchy outfit.',
