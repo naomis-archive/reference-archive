@@ -2,31 +2,9 @@
   <div class="nes-container with-title is-centered is-rounded">
     <h1>Naomi's Reference</h1>
     <p>
-      This page serves as a quick reference sheet for folks who are interested
-      in drawing Naomi art.
-    </p>
-    <p>
-      If you want to draw Naomi fan art, let us know in our
-      <a href="https://chat.nhcarrigan.com" target="_blank">Discord</a>!
-    </p>
-    <p>
-      Use the buttons below to view Naomi's ref sheet, wardrobe, or past art -
-      note that the ref sheet depicts her in undergarments, to avoid obscuring
-      key features.
+      This page has been relocated to our home page, with an improved experience
+      for faster load times and easier access to the images you want to see.
     </p>
   </div>
-  <div>
-    <button *ngIf="view !== 'ref'" class="nes-btn" (click)="setView('ref')">
-      Reference
-    </button>
-    <button *ngIf="view !== 'ward'" class="nes-btn" (click)="setView('ward')">
-      Wardrobe
-    </button>
-    <button *ngIf="view !== 'art'" class="nes-btn" (click)="setView('art')">
-      Past Art
-    </button>
-  </div>
-  <app-ref *ngIf="view === 'ref'"></app-ref>
-  <app-art *ngIf="view === 'art'"></app-art>
-  <app-outfits *ngIf="view === 'ward'"></app-outfits>
+  <a href="https://naomi.lgbt/ref" class="nes-btn">Take me there~!</a>
 </div>
